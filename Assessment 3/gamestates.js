@@ -596,13 +596,16 @@ function creditText()
 	
 	context.font="20px Arial";
 	context.fillStyle = "white";
-	context.fillText("Music      Blizzard Eneterainment",200, 250);
-	context.fillText("Sound EFX         SoundBible.com",200, 300);
-	context.fillText("Sprites         2dgameartguru.com",200, 350);
-	context.fillText("Tiles            opengameart.org",200, 400);
+	context.fillText("Music			khindsider.com",200, 250);
+	context.fillText("Sound EFX			SoundBible.com",200, 300);
+	context.fillText("Sprites			2dgameartguru.com",200, 350);
+	context.fillText("Tiles			opengameart.org",200, 400);
 	
-	context.fillText("Damian Castle       Level Design / Animations",550, 300);
-	context.fillText("Ryan Vinter       Game Programmer",550, 350);
+	context.fillText("Hud Icons			game-icons.net",550, 250);
+	context.fillText("Damian Castle			Level Design / Animations",550, 300);
+	context.fillText("Ryan Vinter			Game Programmer",550, 350);
+	context.fillText("Johnathon Evans			Something",550, 400);
+	
 	context.fillStyle = "yellow"; 
 	context.fillText("^^ Special Thanx to Matt & the other staff & students at AIE ^^",325, 500);
 	

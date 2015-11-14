@@ -445,6 +445,7 @@ Boss2.prototype.update = function(deltaTime)
 {
 	if (this.health <=0)
 	{
+		sfxAirRaid.stop();
 		bosses.splice(i, 1);
 		player.score += 25;
 	}
