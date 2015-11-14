@@ -604,7 +604,7 @@ function creditText()
 	context.fillText("Hud Icons			game-icons.net",550, 250);
 	context.fillText("Damian Castle			Level Design / Animations",550, 300);
 	context.fillText("Ryan Vinter			Game Programmer",550, 350);
-	context.fillText("Johnathon Evans			Something",550, 400);
+	context.fillText("Johnathon Evans			Game Tester",550, 400);
 	
 	context.fillStyle = "yellow"; 
 	context.fillText("^^ Special Thanx to Matt & the other staff & students at AIE ^^",325, 500);
