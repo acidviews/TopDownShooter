@@ -518,7 +518,7 @@ function runGameComplete(deltaTime)
 {
 	context.clearRect(0, 0, canvas.width, canvas.height);	//clear previous screen
 	var background = new Image();			
-	background.src = "gamecompletesplash.jpg";		//draw bg
+	background.src = "gamecompletesplash.png";		//draw bg
 	context.drawImage(background, 0, 0);
 	
 	gameCompleteText();
@@ -597,20 +597,23 @@ function creditText()
 	context.font="20px Arial";
 	context.fillStyle = "white";
 	context.fillText("Music			khindsider.com",200, 250);
-	context.fillText("Sound EFX			SoundBible.com",200, 300);
-	context.fillText("Sprites			2dgameartguru.com",200, 350);
-	context.fillText("Tiles			opengameart.org",200, 400);
+	context.fillText("Sound EFX			SoundBible.com",200, 300);	 
+	context.fillText("Background Wawritto@Dreamstime.com",200, 350);
+	context.fillText("Sprites chris hildenbrand@2dgameartguru.com, explosions@EnyoJS",200, 450);
+	context.fillText("Tiles  & pinkfirefly@deviantart.com,& Big Rook Games, undead empire pack",200, 400);
+	 
+
 	
-	context.fillText("Hud Icons			game-icons.net",550, 250);
-	context.fillText("Damian Castle			Level Design / Animations",550, 300);
-	context.fillText("Ryan Vinter			Game Programmer",550, 350);
-	context.fillText("Johnathon Evans			Game Tester",550, 400);
+	context.fillText("Hud Icons			game-icons.net",750, 250);
+	context.fillText("Damian Castle			Level Design / Animations",550, 500);
+	context.fillText("Ryan Vinter			Game Programmer",550, 550);
+	context.fillText("Johnathon Evans			Game Tester / splash BG",550, 600);
 	
 	context.fillStyle = "yellow"; 
-	context.fillText("^^ Special Thanx to Matt & the other staff & students at AIE ^^",325, 500);
+	context.fillText("^^ Special Thanx to Matt & the other staff & students at AIE ^^",325, 650);
 	
 	context.fillStyle = "white";
-	context.fillText("< Press 1 to return to title >", 450, 650);
+	context.fillText("< Press 1 to return to title >", 450, 700);
 }
 
 function runCredits(deltaTime)
