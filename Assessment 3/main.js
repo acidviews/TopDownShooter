@@ -387,7 +387,7 @@ initialize(levelN);
 			urls: ["level1.ogg"], 
 			loop: true,
 			buffer: true,
-			volume: 0.7
+			volume: 0.5
 	});
 
 	musicBackgroundL2 = new Howl
@@ -395,7 +395,7 @@ initialize(levelN);
 			urls: ["level2.ogg"], 
 			loop: true,
 			buffer: true,
-			volume: 0.7
+			volume: 0.5
 	});
 	
 	musicBackgroundL3 = new Howl
@@ -403,7 +403,7 @@ initialize(levelN);
 			urls: ["level3.ogg"], 
 			loop: true,
 			buffer: true,
-			volume: 0.7
+			volume: 0.5
 	});
 	
 	musicBackgroundGC = new Howl
@@ -437,7 +437,7 @@ initialize(levelN);
 	
 	sfxEGunFire = new Howl
 	({
-		urls: ["gunfire.ogg"],
+		urls: ["fireEnemy.ogg"],
 		buffer: true,
 		volume: 0.2,
 		onend: function() 
@@ -456,6 +456,29 @@ initialize(levelN);
 			isSfxPlaying = false;
 		}
 	});
+	
+		sfxTank = new Howl
+	({
+		urls: ["tankShoots.ogg"],
+		buffer: true,
+		volume: .3,
+		onend: function() 
+		{
+			isSfxPlaying = false;
+		}
+	});
+	
+		sfxAirRaid = new Howl
+	({
+		urls: ["TornadoSiren.ogg"],
+		buffer: true,
+		volume: .7,
+		onend: function() 
+		{
+			isSfxPlaying = false;
+		}
+	});
+	
 }
 
 //-------------------- Don't modify anything below here

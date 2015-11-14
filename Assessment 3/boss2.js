@@ -38,13 +38,14 @@ Boss2.prototype.spawn = function(b2x, b2y)
 {
 	var boss2 = new Boss2(b2x, b2y); 
 	bosses.push(boss2);
+	sfxAirRaid.play();
 }
 
 Boss2.prototype.shoot = function(Ebul2X, Ebul2Y, Ebul2r)
 {
 	var ebullet2 = new Ebullet2(Ebul2X, Ebul2Y, Ebul2r); 
 	ebullets2.push(ebullet2);
-	sfxEGunFire.play();
+	sfxTank.play();
 }
 
 Boss2.prototype.randomDirection = function()

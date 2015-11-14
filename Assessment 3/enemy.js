@@ -468,7 +468,7 @@ Enemy.prototype.updateAgro = function(deltaTime)
 Enemy.prototype.update = function(deltaTime)
 {
 	this.distanceToPlayer(this.position.x, this.position.y, player.position.x, player.position.y);
-	if (this.distanceOfPlayer <= 450)
+	if (this.distanceOfPlayer <= 750)
 	{
 		this.updateAgro(deltaTime);
 	}

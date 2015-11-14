@@ -50,6 +50,6 @@ Ebullet2.prototype.draw = function()
 	context.save();
 	context.translate(this.position.x- worldOffsetX, this.position.y - worldOffsetY);
 	context.rotate(this.rotation);
-	this.sprite.draw(context, 0,0);		
+	this.sprite.draw(context, 0, -280);		
 	context.restore(); 
 }
